@@ -1854,9 +1854,9 @@ let CORRIDOR_TRAINS = {"TPTY": [{"no": "20701", "name": "Secunderabad–Tirupati
     async function hydrateExternalDatasets() {
       try {
         const [tRes, trRes, bRes] = await Promise.all([
-          fetch('./data/temples.json'),
-          fetch('./data/corridor-trains.json'),
-          fetch('./data/corridor-buses.json')
+          fetch('./temples.json'),
+          fetch('./corridor-trains.json'),
+          fetch('./corridor-buses.json')
         ]);
         if (tRes.ok) {
           const tJson = await tRes.json();
