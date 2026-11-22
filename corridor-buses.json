@@ -1,0 +1,390 @@
+{
+  "TPTY": [
+    {
+      "op": "TGSRTC Garuda Plus / Lahari AC",
+      "from": "MGBS / JBS / Miyapur (Hyd)",
+      "to": "Tirupati Bus Stand (Alipiri)",
+      "timings": "17:30, 18:45, 20:00, 21:15",
+      "dur": "11h 30m",
+      "fare": "₹1,150 – ₹1,650"
+    },
+    {
+      "op": "APSRTC Vennela / Amaravati AC",
+      "from": "BHEL / Kukatpally / LB Nagar (Hyd)",
+      "to": "Tirupati Central Bus Station",
+      "timings": "18:00, 19:30, 20:30, 21:45",
+      "dur": "11h 15m",
+      "fare": "₹1,100 – ₹1,720"
+    },
+    {
+      "op": "AbhiBus Partner (Orange / IntrCity)",
+      "from": "Gachibowli / Lakdikapul / LB Nagar",
+      "to": "Tirupati / Renigunta Bypass",
+      "timings": "18:15, 19:45, 21:00, 22:15",
+      "dur": "11h 00m",
+      "fare": "₹999 – ₹1,850"
+    },
+    {
+      "op": "APSRTC Sapthagiri Ghat Express",
+      "from": "Tirupati RTC Bus Stand / Alipiri",
+      "to": "Tirumala Hill Temple",
+      "timings": "Every 5 mins (24x7)",
+      "dur": "00h 45m",
+      "fare": "₹90"
+    }
+  ],
+  "BZA": [
+    {
+      "op": "TGSRTC Garuda / Super Luxury",
+      "from": "MGBS / KPHB / Dilsukhnagar (Hyd)",
+      "to": "PNBS Vijayawada",
+      "timings": "Every 30 mins (05:00 – 23:30)",
+      "dur": "05h 30m",
+      "fare": "₹520 – ₹890"
+    },
+    {
+      "op": "APSRTC Indra / Amaravati AC",
+      "from": "Miyapur / Ameerpet / LB Nagar (Hyd)",
+      "to": "Pandit Nehru Bus Station (PNBS)",
+      "timings": "Every 20 mins (24x7)",
+      "dur": "05h 15m",
+      "fare": "₹550 – ₹950"
+    },
+    {
+      "op": "AbhiBus Partner (Morning Star / VKV)",
+      "from": "Kukatpally / Paradise / LB Nagar",
+      "to": "Benz Circle / PNBS Vijayawada",
+      "timings": "06:30, 13:00, 21:30, 22:45",
+      "dur": "05h 10m",
+      "fare": "₹490 – ₹1,150"
+    }
+  ],
+  "VSKP": [
+    {
+      "op": "TGSRTC Rajdhani / Garuda Plus",
+      "from": "MGBS / JBS / Uppal (Hyd)",
+      "to": "Dwaraka Bus Complex (VSKP)",
+      "timings": "16:30, 18:00, 19:30, 20:30",
+      "dur": "12h 30m",
+      "fare": "₹1,250 – ₹1,750"
+    },
+    {
+      "op": "APSRTC Night Rider / Vennela Sleeper",
+      "from": "Patancheru / KPHB / LB Nagar",
+      "to": "Maddilapalem / Dwaraka Nagar",
+      "timings": "17:00, 18:30, 19:45, 21:00",
+      "dur": "12h 15m",
+      "fare": "₹1,200 – ₹1,890"
+    },
+    {
+      "op": "AbhiBus Partner (Sri Krishna / Kaveri)",
+      "from": "Gachibowli / SR Nagar / Uppal",
+      "to": "Simhachalam / NAD Junction",
+      "timings": "17:30, 19:00, 20:15, 21:30",
+      "dur": "12h 00m",
+      "fare": "₹1,050 – ₹1,950"
+    }
+  ],
+  "KRNT": [
+    {
+      "op": "TGSRTC Srisailam Ghat Special",
+      "from": "MGBS / JBS / Shamshabad (Hyd)",
+      "to": "Srisailam / Kurnool / Nandyal",
+      "timings": "04:30, 06:00, 08:30, 11:00, 14:00",
+      "dur": "04h 30m – 05h 30m",
+      "fare": "₹380 – ₹620"
+    },
+    {
+      "op": "APSRTC Super Luxury / Indra AC",
+      "from": "MGBS / Aramghar (Hyd)",
+      "to": "Kurnool / Nandyal / Mantralayam",
+      "timings": "Every 45 mins (05:00 – 23:00)",
+      "dur": "04h 00m – 05h 45m",
+      "fare": "₹360 – ₹680"
+    },
+    {
+      "op": "AbhiBus Partner (Diwakar / SVR)",
+      "from": "Kukatpally / Lakdikapul / Aramghar",
+      "to": "Kurnool / Nandyal / Ahobilam",
+      "timings": "07:00, 14:30, 21:30, 22:30",
+      "dur": "04h 15m",
+      "fare": "₹420 – ₹890"
+    }
+  ],
+  "KZJ": [
+    {
+      "op": "TGSRTC Yadadri / Warangal Non-Stop",
+      "from": "JBS Secunderabad / Uppal X Roads",
+      "to": "Yadagirigutta / Hanamkonda / Vemulawada",
+      "timings": "Every 15 mins (04:30 – 22:30)",
+      "dur": "01h 30m – 03h 15m",
+      "fare": "₹110 – ₹340"
+    },
+    {
+      "op": "TGSRTC Garuda / Super Luxury (Bhadrachalam)",
+      "from": "MGBS / JBS / Uppal (Hyd)",
+      "to": "Bhadrachalam Temple Bus Stand",
+      "timings": "06:30, 09:00, 20:30, 21:45",
+      "dur": "06h 45m",
+      "fare": "₹540 – ₹820"
+    },
+    {
+      "op": "AbhiBus Partner (TGSRTC & Private)",
+      "from": "Uppal / LB Nagar / KPHB",
+      "to": "Warangal / Kothagudem / Bhadrachalam",
+      "timings": "07:00, 15:00, 21:30, 22:30",
+      "dur": "03h 00m – 06h 30m",
+      "fare": "₹350 – ₹850"
+    }
+  ],
+  "NZB": [
+    {
+      "op": "TGSRTC Express / Deluxe / Rajdhani",
+      "from": "JBS Secunderabad / Suchitra / Medchal",
+      "to": "Nizamabad / Basara / Nirmal",
+      "timings": "Every 20 mins (05:00 – 22:00)",
+      "dur": "03h 30m – 04h 30m",
+      "fare": "₹280 – ₹490"
+    },
+    {
+      "op": "AbhiBus Partner (TGSRTC & MSRTC)",
+      "from": "JBS / Kukatpally / Kompally",
+      "to": "Nizamabad / Nanded / Adilabad",
+      "timings": "06:30, 13:30, 21:00, 22:30",
+      "dur": "03h 45m",
+      "fare": "₹310 – ₹750"
+    }
+  ],
+  "MAS": [
+    {
+      "op": "APSRTC / SETC / TGSRTC Interstate AC",
+      "from": "MGBS / Miyapur / LB Nagar (Hyd)",
+      "to": "CMBT Koyambedu / Kilambakkam (Chennai)",
+      "timings": "16:30, 18:00, 19:30, 20:30",
+      "dur": "12h 30m",
+      "fare": "₹1,250 – ₹1,950"
+    },
+    {
+      "op": "AbhiBus Partner (Orange / IntrCity / Jabbar)",
+      "from": "Gachibowli / KPHB / LB Nagar",
+      "to": "Koyambedu / Guindy / Kanchipuram",
+      "timings": "17:00, 18:30, 19:45, 21:00",
+      "dur": "12h 00m",
+      "fare": "₹1,150 – ₹2,150"
+    }
+  ],
+  "MDU": [
+    {
+      "op": "AbhiBus Partner (Kallada / SPS / Orange)",
+      "from": "Gachibowli / Lakdikapul / Shamshabad",
+      "to": "Mattuthavani Madurai / Trichy",
+      "timings": "14:00, 15:30, 17:00",
+      "dur": "17h 30m",
+      "fare": "₹1,850 – ₹2,850"
+    },
+    {
+      "op": "SETC / TNSTC Express (from Chennai/Bengaluru)",
+      "from": "Chennai CMBT / Bengaluru Majestic",
+      "to": "Madurai / Rameswaram / Kanyakumari",
+      "timings": "Every 30 mins (24x7)",
+      "dur": "08h 00m – 10h 30m",
+      "fare": "₹650 – ₹1,250"
+    }
+  ],
+  "ERS": [
+    {
+      "op": "AbhiBus Partner (Kallada / Aeon / Atlas)",
+      "from": "Gachibowli / KPHB / Shamshabad",
+      "to": "Ernakulam Vyttila / Thrissur / Kottayam",
+      "timings": "13:30, 15:00, 16:30",
+      "dur": "19h 30m",
+      "fare": "₹2,100 – ₹3,200"
+    },
+    {
+      "op": "Kerala RTC (KSRTC) Swift / Super Fast",
+      "from": "Ernakulam / Thrissur / TVC Bus Stand",
+      "to": "Guruvayur / Sabarimala Pamba / Chottanikkara",
+      "timings": "Every 20 mins (04:00 – 22:30)",
+      "dur": "01h 00m – 04h 30m",
+      "fare": "₹90 – ₹380"
+    }
+  ],
+  "SBC": [
+    {
+      "op": "TGSRTC Garuda Plus / Vennela Sleeper",
+      "from": "MGBS / JBS / Gachibowli / Shamshabad",
+      "to": "Majestic / Hebbal / Silk Board (BLR)",
+      "timings": "18:30, 19:45, 21:00, 22:15",
+      "dur": "09h 30m",
+      "fare": "₹1,050 – ₹1,650"
+    },
+    {
+      "op": "KSRTC Airavat Club Class / Ambari Utsav",
+      "from": "MGBS / Miyapur / Aramghar (Hyd)",
+      "to": "Kempegowda Bus Station (Majestic)",
+      "timings": "18:00, 19:30, 20:45, 22:00",
+      "dur": "09h 15m",
+      "fare": "₹1,150 – ₹1,850"
+    },
+    {
+      "op": "AbhiBus Partner (IntrCity / Orange / VRL)",
+      "from": "KPHB / Gachibowli / Mehdipatnam",
+      "to": "Yesvantpur / Majestic / Mysuru",
+      "timings": "19:00, 20:30, 21:30, 22:45",
+      "dur": "09h 00m",
+      "fare": "₹950 – ₹1,950"
+    }
+  ],
+  "MAJN": [
+    {
+      "op": "AbhiBus Partner (VRL / SRS / Sugama)",
+      "from": "Gachibowli / KPHB / Aramghar (Hyd)",
+      "to": "Hubballi / Udupi / Mangaluru / Hampi",
+      "timings": "16:30, 18:00, 19:30",
+      "dur": "13h 30m – 16h 00m",
+      "fare": "₹1,450 – ₹2,400"
+    },
+    {
+      "op": "KSRTC Rajahamsa / Airavat",
+      "from": "Bengaluru Majestic / Hubballi",
+      "to": "Kollur / Kukke Subramanya / Dharmasthala / Gokarna",
+      "timings": "06:30, 09:00, 21:30, 22:30",
+      "dur": "06h 30m – 08h 30m",
+      "fare": "₹580 – ₹1,150"
+    }
+  ],
+  "PUNE": [
+    {
+      "op": "TGSRTC Lahari / Garuda Plus",
+      "from": "MGBS / Miyapur / KPHB / BHEL (Hyd)",
+      "to": "Swargate / Wakad / Sangamwadi (Pune)",
+      "timings": "18:00, 19:30, 20:30, 21:30",
+      "dur": "09h 45m",
+      "fare": "₹1,050 – ₹1,600"
+    },
+    {
+      "op": "AbhiBus Partner (VRL / Orange / IntrCity)",
+      "from": "Gachibowli / Kukatpally / Patancheru",
+      "to": "Pune / Solapur / Kolhapur / Pandharpur",
+      "timings": "18:30, 20:00, 21:15, 22:30",
+      "dur": "09h 30m",
+      "fare": "₹950 – ₹1,850"
+    }
+  ],
+  "SNSI": [
+    {
+      "op": "TGSRTC Garuda Plus / Rajdhani (Shirdi)",
+      "from": "MGBS / JBS / Miyapur / BHEL (Hyd)",
+      "to": "Sainagar Shirdi Bus Stand",
+      "timings": "16:30, 18:00, 19:15",
+      "dur": "12h 00m",
+      "fare": "₹1,150 – ₹1,680"
+    },
+    {
+      "op": "AbhiBus Partner (Orange / VRL / Hans)",
+      "from": "Gachibowli / KPHB / Patancheru",
+      "to": "Shirdi / Nashik / Aurangabad",
+      "timings": "17:00, 18:30, 20:00",
+      "dur": "11h 45m",
+      "fare": "₹1,050 – ₹1,890"
+    }
+  ],
+  "PURI": [
+    {
+      "op": "OSRTC / AbhiBus Partner (to Berhampur/BBS)",
+      "from": "Visakhapatnam / Hyd (via VSKP)",
+      "to": "Bhubaneswar Baramunda / Puri",
+      "timings": "17:30, 19:00, 20:30",
+      "dur": "07h 30m (from VSKP)",
+      "fare": "₹750 – ₹1,350"
+    },
+    {
+      "op": "OSRTC / Mo Bus Direct Shuttle",
+      "from": "Bhubaneswar Baramunda / Master Canteen",
+      "to": "Puri Gundicha / Jagannath Temple",
+      "timings": "Every 15 mins (05:00 – 22:00)",
+      "dur": "01h 30m",
+      "fare": "₹70 – ₹150"
+    }
+  ],
+  "BSB": [
+    {
+      "op": "UPSRTC Janrath / Shatabdi AC",
+      "from": "Varanasi Cantt / Prayagraj / Lucknow",
+      "to": "Ayodhya Dham / Chitrakoot / Vindhyachal",
+      "timings": "Every 30 mins (05:00 – 22:00)",
+      "dur": "02h 30m – 04h 30m",
+      "fare": "₹240 – ₹580"
+    },
+    {
+      "op": "AbhiBus Partner (Gajraj / IntrCity)",
+      "from": "Varanasi / Prayagraj / Gorakhpur",
+      "to": "Ayodhya / Mathura / Gaya",
+      "timings": "06:30, 14:00, 21:30",
+      "dur": "04h 00m – 08h 00m",
+      "fare": "₹450 – ₹1,150"
+    }
+  ],
+  "NDLS": [
+    {
+      "op": "UPSRTC / HRTC / UTC Volvo & Ordinary",
+      "from": "Delhi ISBT Kashmere Gate / Anand Vihar",
+      "to": "Haridwar / Rishikesh / Mathura / Katra",
+      "timings": "Every 20 mins (24x7)",
+      "dur": "03h 00m – 12h 00m",
+      "fare": "₹280 – ₹1,450"
+    },
+    {
+      "op": "AbhiBus Partner (IntrCity / Zingbus)",
+      "from": "Delhi Majnu Ka Tila / RK Ashram",
+      "to": "Manali / Shimla / Amritsar / Khatu Shyam",
+      "timings": "18:30, 20:00, 21:30, 22:30",
+      "dur": "06h 00m – 12h 30m",
+      "fare": "₹699 – ₹1,650"
+    }
+  ],
+  "ADI": [
+    {
+      "op": "GSRTC / RSRTC Volvo & Sleeper",
+      "from": "Ahmedabad Geeta Mandir / Udaipur / Indore",
+      "to": "Somnath / Dwarka / Ambaji / Ujjain / Pushkar",
+      "timings": "Every 45 mins (05:00 – 23:30)",
+      "dur": "03h 00m – 08h 30m",
+      "fare": "₹260 – ₹980"
+    },
+    {
+      "op": "AbhiBus Partner (Patel / Chartered Bus)",
+      "from": "Ahmedabad Paldi / Indore Vijay Nagar",
+      "to": "Dwarka / Nathdwara / Ujjain / Omkareshwar",
+      "timings": "07:00, 14:00, 21:30, 22:30",
+      "dur": "02h 30m – 08h 00m",
+      "fare": "₹320 – ₹1,250"
+    }
+  ],
+  "HYD": [
+    {
+      "op": "APSRTC Amaravati / Indra AC",
+      "from": "PNBS Vijayawada / Guntur",
+      "to": "MGBS / LB Nagar / KPHB (Hyd)",
+      "timings": "Every 20 mins (24x7)",
+      "dur": "05h 15m",
+      "fare": "₹550 – ₹950"
+    },
+    {
+      "op": "TGSRTC Garuda Plus / Rajdhani",
+      "from": "Tirupati / Visakhapatnam / Warangal",
+      "to": "MGBS / JBS Secunderabad",
+      "timings": "Every 30 mins (05:00 – 23:30)",
+      "dur": "03h 00m – 12h 00m",
+      "fare": "₹320 – ₹1,650"
+    },
+    {
+      "op": "AbhiBus Partner (Morning Star / Orange)",
+      "from": "Vijayawada / Vizag / Tirupati / Bengaluru",
+      "to": "Lakdikapul / Ameerpet / Secunderabad",
+      "timings": "18:00, 20:00, 21:30, 22:30",
+      "dur": "05h 10m – 11h 30m",
+      "fare": "₹490 – ₹1,850"
+    }
+  ]
+}

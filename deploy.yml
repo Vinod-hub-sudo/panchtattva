@@ -1,0 +1,70 @@
+name: Validate & Deploy PanchTattva
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Validate structure & JSON datasets
+        run: |
+          python3 - << 'PY'
+          import json, os
+          required = [
+              "index.html",
+              "manifest.json",
+              "sw.js",
+              "icon.svg",
+              "css/app.css",
+              "js/app.js",
+              "data/temples.json",
+              "data/corridor-trains.json",
+              "data/corridor-buses.json"
+          ]
+          for r in required:
+              assert os.path.isfile(r), f"Missing required file: {r}"
+          with open("manifest.json", encoding="utf-8") as f:
+              json.load(f)
+          with open("data/temples.json", encoding="utf-8") as f:
+              temples = json.load(f)
+              assert len(temples) > 0, "temples.json is empty"
+          with open("data/corridor-trains.json", encoding="utf-8") as f:
+              json.load(f)
+          with open("data/corridor-buses.json", encoding="utf-8") as f:
+              json.load(f)
+          print(f"Validation passed: {len(temples)} temples verified.")
+          PY
+
+  deploy:
+    needs: validate
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: '.'
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
