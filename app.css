@@ -31,4 +31,3 @@
     .lunar-arc-track { stroke: rgba(148, 163, 184, 0.22); stroke-width: 2.5; fill: none; }
     .lunar-arc-progress { stroke: url(#nightSkyArc); stroke-width: 3; fill: none; stroke-linecap: round; }
     .night-window-pill { background: rgba(99, 102, 241, 0.14); border: 1px solid rgba(129, 140, 248, 0.35); }
-
